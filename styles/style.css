@@ -1,0 +1,54 @@
+#calci {
+    width: 500px;
+    height: 470px;
+    border-style: ridge;
+    margin: 15px;
+}
+
+#display {    
+    border-style: groove;
+    margin: 12px 12px 16px 12px;    
+    width: 472px;    
+}
+
+#main {    
+    font-size: 50px;
+}
+
+p {
+    width: 100%;
+    vertical-align: middle;
+    text-align: right;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;    
+    text-overflow: ellipsis;
+}
+
+.rowDiv {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.digits {
+    /*background-color: cadetblue;*/
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 115px;
+    height: 60px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    border-style: inset;
+    border-radius: 6px;
+}
