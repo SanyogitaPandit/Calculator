@@ -1,12 +1,14 @@
 #calci {
     width: 500px;
-    height: 470px;
     border-style: ridge;
+    border-width: 10px;
     margin: 15px;
+    padding-bottom: 10px;
 }
 
 #display {    
     border-style: groove;
+    border-width: 05px;
     margin: 12px 12px 16px 12px;    
     width: 472px;    
 }
@@ -33,13 +35,18 @@ p {
     text-align: center;
 }
 
-.digits {
-    /*background-color: cadetblue;*/
+button:hover, button.digits:hover {    
+    background-color: hsl(0, 0%, 55%);
+}
+
+button:active {
+    transform: translateY(1px);
 }
 
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 button {
@@ -51,4 +58,11 @@ button {
     margin-bottom: 5px;
     border-style: inset;
     border-radius: 6px;
+    border-width: 3px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 70%);
+}
+
+button.digits {
+    background-color: hsl(0, 0%, 40%);
 }
